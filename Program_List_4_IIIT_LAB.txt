@@ -42,10 +42,6 @@ X      Background color
 Y      Foreground Bright or (alternate) Alternate character set 
 Z      Foreground color
 
-116. Write a program to obtain transpose of a 4 x 4 matrix. The transpose of a matrix is obtained by exchanging the elements of each row with the elements of the corresponding column.
-
-117. Write a program to sort all the elements of a 4 x 4 matrix.
-
 118. The X and Y coordinates of 10 different points are entered through the keyboard. Write a program to find the distance of last point from the first point (sum of distance between consecutive points).
 
 119. The first difference D1 of a sequence A of N elements is obtained by subtracting each element, except the last, from the next element in the array. The second difference D2 is defined as the first difference of Dl, and so on. For example, if
