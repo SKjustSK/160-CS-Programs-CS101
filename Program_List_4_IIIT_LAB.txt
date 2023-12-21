@@ -31,7 +31,15 @@ pattern best viewed at in notepad with Font:Lucida console, Font style:Regular a
 109. Write a programm to implement mearging of two sorted array.
 
 
-114. The screen is divided into 25 rows and 80 columns. The characters that are displayed on the screen are stored in a special memory called VDU memory (not to be confused with ordinary memory). Each character displayed on the screen occupies two bytes in VDU memory. The first of these bytes contains the ASCII value of the character being displayed, whereas, the second byte contains the colour in which the character is displayed. For example, the ASCII value of the character present on zeroth row and zeroth column on the screen is stored atlocation number 0xB8000000. Therefore the colour of this character would be present at location number 0xB8000000 + 1. Similarly ASCII value of character in row 0, col 1 will be at location 0xB8000000 + 2, and its colour at 0xB8000000 + 3. With this knowledge write a program to print any string of your chice with attribute of your choice .(Without printf()!!!!!!!!!)
+114. The screen is divided into 25 rows and 80 columns. The characters that are displayed on the screen are stored in 
+a special memory called VDU memory (not to be confused with ordinary memory). Each character displayed on the screen occupies 
+two bytes in VDU memory. The first of these bytes contains the ASCII value of the character being displayed,
+whereas, the second byte contains the colour in which the character is displayed. For example, 
+the ASCII value of the character present on zeroth row and zeroth column on the screen is stored atlocation number
+0xB8000000. Therefore the colour of this character would be present at location number 0xB8000000 + 1. 
+Similarly ASCII value of character in row 0, col 1 will be at location 0xB8000000 + 2, 
+and its colour at 0xB8000000 + 3. With this knowledge write a program to print any string of your chice with attribute
+of your choice .(Without printf()!!!!!!!!!)
 
 attribute bits are as followes
 
@@ -42,22 +50,18 @@ X      Background color
 Y      Foreground Bright or (alternate) Alternate character set 
 Z      Foreground color
 
-118. The X and Y coordinates of 10 different points are entered through the keyboard. Write a program to find the distance of last point from the first point (sum of distance between consecutive points).
+120. A common problem in statistics is that of generating frequency distribution of the given data. 
+Assuming that the data consists of 50 positive integers in the range 1 to 25, write a program that prints
+the number of times each integer occurs in the data. 
 
-119. The first difference D1 of a sequence A of N elements is obtained by subtracting each element, except the last, from the next element in the array. The second difference D2 is defined as the first difference of Dl, and so on. For example, if
+121. A square matrix, that is, one having the same number of rows and columns, is called a diagonal matrix if its
+only non-zero elements are on the diagonal from upper left to lower right. It is called upper triangular, 
+if all elements below the diagonal are zeroes, and lower triangular, if all elements above the diagonal
+are zeroes. Write a program that reads a matrix and determines if it is one of these three special matrices.
 
-A: 1,2,4,7,11,16, 22, then
-D1: 1,2,3,4, 5, 6
-D2:  1,1,1,1,  1
-D3:   0,0,0, 0
-
-Write a program that reads a sequence of 25 elements in an array and finds its first, second, and third differences.
-
-120. A common problem in statistics is that of generating frequency distribution of the given data. Assuming that the data consists of 50 positive integers in the range 1 to 25, write a program that prints the number of times each integer occurs in the data. 
-
-121. A square matrix, that is, one having the same number of rows and columns, is called a diagonal matrix if its only non-zero elements are on the diagonal from upper left to lower right. It is called upper triangular, if all elements below the diagonal are zeroes, and lower triangular, if all elements above the diagonal are zeroes. Write a program that reads a matrix and determines if it is one of these three special matrices.
-
-122. The Miniaturization Unlimited sells 5 types of memory chips through its retail outlets in 10 cities. The weekly sales of the company are stored i n a 5 x l 0 x 7 array SALES such that SALES( L, K, M ) denotes the sales of the L* memory chip in the K city on the M day of the week. Write a program that computes: 
+122. The Miniaturization Unlimited sells 5 types of memory chips through its retail outlets in 10 cities. 
+The weekly sales of the company are stored i n a 5 x l 0 x 7 array SALES such that SALES( L, K, M ) denotes 
+the sales of the L* memory chip in the K city on the M day of the week. Write a program that computes: 
 
 (a) The total weekly sale of each type of memory chip
 (b) The total weekly sale in each city and
@@ -132,7 +136,7 @@ Note that according to the Gregorian calendar 01/01/1900 was Monday. With this a
 148. Write a program that takes a set of names of individuals and abbreviates the first, middle and other names except the last name by their first letter.
 
 149. Write a program to count the number of occurrences of any two vowels in succession in a line of text. For example, in the sentence
-“Pleases read this application and give me gratuity”
+ï¿½Pleases read this application and give me gratuityï¿½
 such occurrences are ea, ea, ui.
 
 150. Write a program to encode the following string such that it gets converted into an unrecognizable form. Also write a decode function to get back the original string.
@@ -150,7 +154,7 @@ Account number, Name, Balance in account.
 Assume maximum of 200 customers in the bank.
 (a) Write a function to print the Account number and name of each customer with balance below Rs. 100.
 (b) If a customer request for withdrawal or deposit, it is given in the form:
-Acct. no, amount, code (1 for deposit, 0 for withdrawal) Write a program to give a message, “The balance is insufficient for the specified withdrawal”.
+Acct. no, amount, code (1 for deposit, 0 for withdrawal) Write a program to give a message, ï¿½The balance is insufficient for the specified withdrawalï¿½.
 
 153. (c) An automobile company has serial number for engine parts starting from AA0 to FF9. The other characteristics of parts to be specified in a structure are: Year of manufacture, material and quantity manufactured.
 (a) Specify a structure to store information corresponding to a part.
@@ -169,7 +173,7 @@ Acct. no, amount, code (1 for deposit, 0 for withdrawal) Write a program to give
 
 Create a structure called library to hold accession number, title of the book, author name, price of the book, and flag indicating whether book is issued or not.
 
-156. Suppose a file contains student’s records with each record containing name and age of a student. Write a program to read these records and display them.
+156. Suppose a file contains studentï¿½s records with each record containing name and age of a student. Write a program to read these records and display them.
 
 157. Write a program to copy one file to another. While doing so replace all lowercase characters to their equivalent uppercase characters.
 
@@ -177,10 +181,10 @@ Create a structure called library to hold accession number, title of the book, a
 
  Write a program to encrypt/decrypt a file using: (159-160)
 
-159. An offset cipher: In an offset cipher each character from the source file is offset with a fixed value and then written to the target file. For example, if character read from the source file is ‘A’, then convert this into a new character by offsetting ‘A’ by a fixed value, say 128, and then writing the new character to the target file.
+159. An offset cipher: In an offset cipher each character from the source file is offset with a fixed value and then written to the target file. For example, if character read from the source file is ï¿½Aï¿½, then convert this into a new character by offsetting ï¿½Aï¿½ by a fixed value, say 128, and then writing the new character to the target file.
 
-160. A substitution cipher: In this each character read from the source file is substituted by a corresponding predetermined character and this character is written to the target file.For example, if character ‘A’ is read from the source file, and if we have decided that every ‘A’ is to be substituted by ‘!’, then a ‘!’ would be written to the target file in place of every ‘A’ Similarly, every ‘B’ would be 
-substituted by ‘5’ and so on.
+160. A substitution cipher: In this each character read from the source file is substituted by a corresponding predetermined character and this character is written to the target file.For example, if character ï¿½Aï¿½ is read from the source file, and if we have decided that every ï¿½Aï¿½ is to be substituted by ï¿½!ï¿½, then a ï¿½!ï¿½ would be written to the target file in place of every ï¿½Aï¿½ Similarly, every ï¿½Bï¿½ would be 
+substituted by ï¿½5ï¿½ and so on.
 
 
 
