@@ -50,9 +50,6 @@ X      Background color
 Y      Foreground Bright or (alternate) Alternate character set 
 Z      Foreground color
 
-120. A common problem in statistics is that of generating frequency distribution of the given data. 
-Assuming that the data consists of 50 positive integers in the range 1 to 25, write a program that prints
-the number of times each integer occurs in the data. 
 
 121. A square matrix, that is, one having the same number of rows and columns, is called a diagonal matrix if its
 only non-zero elements are on the diagonal from upper left to lower right. It is called upper triangular, 
